@@ -1,0 +1,10 @@
+Project: GitSurgeon
+Tagline: Autonomous Test-Reproducing & Codebase Patching Agent Harness
+Track: Coding & developer tools
+Event: BharatCode Build League
+Provider: BharatCode (https://bharatcode.ai)
+API Base: https://bharatcode.ai/api/model/v1
+Supported Models: qwen-3.8-27b, deepseek-v4.1-flash
+Repository: https://github.com/Dheerajkumar129/gitsurgeon
+Verification: BHARATCODE-BUILD-LEAGUE-v1-VERIFIED
+Timestamp: 2026-11-06T01:00:00+05:30

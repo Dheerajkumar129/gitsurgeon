@@ -1,0 +1,46 @@
+{
+  "name": "gitsurgeon",
+  "version": "1.0.0",
+  "description": "Autonomous Test-Reproducing & Codebase Patching Agent Harness powered by BharatCode",
+  "bin": {
+    "gitsurgeon": "./bin/gitsurgeon.js"
+  },
+  "scripts": {
+    "dev": "next dev --webpack -p 3030",
+    "build": "next build --webpack",
+    "start": "next start -p 3030",
+    "lint": "next lint",
+    "cli": "node ./bin/gitsurgeon.js"
+  },
+  "keywords": [
+    "ai-agent",
+    "bharatcode",
+    "harness",
+    "test-reproduction",
+    "patching",
+    "code-repair",
+    "developer-tools"
+  ],
+  "author": "BharatCode Build League Participant",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^12.1.0",
+    "diff": "^5.2.0",
+    "lucide-react": "^0.428.0",
+    "next": "^14.2.5",
+    "ora": "^5.4.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/diff": "^5.0.9",
+    "@types/node": "^20.14.9",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.4.5"
+  }
+}
